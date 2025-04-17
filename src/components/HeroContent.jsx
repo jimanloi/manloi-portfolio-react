@@ -1,10 +1,15 @@
 import React from "react";
-import manloiDrawing from "/src/assets/manloi-drawing.jpg";
+import manloiDrawing from "../assets/manloi-drawing.jpg";
 
 const HeroContent = () => {
   return (
     <div className="hero-content">
-      <img className="manloi-image" src={manloiDrawing} width={"40%"} />
+      <img
+        className="manloi-image"
+        alt="Manloi"
+        src={manloiDrawing}
+        width={"40%"}
+      />
       <div>
         <p class="fs-1">Hi I am Manloi!</p>
         <br />
@@ -13,7 +18,7 @@ const HeroContent = () => {
           communications and too many hobbies.
         </p>
         <a
-          href="/public/Manloi_Jim_CV_May25.pdf"
+          href="/Manloi_Jim_CV_May25.pdf"
           download
           className="btn btn-outline-dark mt-3"
         >
