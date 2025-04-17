@@ -18,7 +18,7 @@ const HeroContent = () => {
           communications and too many hobbies.
         </p>
         <a
-          href="/Manloi_Jim_CV_May25.pdf"
+          href="public/Manloi_Jim_CV_May25.pdf"
           download
           className="btn btn-outline-dark mt-3"
         >
