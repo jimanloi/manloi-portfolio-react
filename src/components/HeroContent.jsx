@@ -1,13 +1,10 @@
 import React from "react";
+import manloiDrawing from "/src/assets/manloi-drawing.jpg";
 
 const HeroContent = () => {
   return (
     <div className="hero-content">
-      <img
-        className="manloi-image"
-        src="\src\assets\manloi-drawing.jpg"
-        width={"40%"}
-      />
+      <img className="manloi-image" src={manloiDrawing} width={"40%"} />
       <div>
         <p class="fs-1">Hi I am Manloi!</p>
         <br />
