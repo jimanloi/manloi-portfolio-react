@@ -1,0 +1,11 @@
+.manloi-image {
+  padding: 35px;
+}
+
+.hero-content {
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+}
