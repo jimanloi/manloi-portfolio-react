@@ -7,19 +7,19 @@ const Footer = () => {
         <a href="https://github.com/jimanloi">
           <i
             class="bi bi-github"
-            style={{ color: "black", fontSize: "20px" }}
+            style={{ color: "#3b3b3b", fontSize: "20px" }}
           ></i>
         </a>
         <a href="https://www.linkedin.com/in/manloij/">
           <i
             class="bi bi-linkedin"
-            style={{ color: "black", fontSize: "20px" }}
+            style={{ color: "#3b3b3b", fontSize: "20px" }}
           ></i>
         </a>
         <a href="https://www.instagram.com/jmseastheday/">
           <i
             class="bi bi-instagram"
-            style={{ color: "black", fontSize: "20px" }}
+            style={{ color: "#3b3b3b", fontSize: "20px" }}
           ></i>
         </a>
       </div>
