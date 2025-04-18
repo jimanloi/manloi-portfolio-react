@@ -1,26 +1,17 @@
 import React from "react";
-import manloiDrawing from "../assets/manloi-drawing.jpg";
 
 const HeroContent = () => {
   return (
     <div className="hero-content">
-      <img
-        className="manloi-image"
-        alt="Manloi"
-        src={manloiDrawing}
-        width={"40%"}
-      />
       <div>
-        <p class="fs-1">Hi I am Manloi!</p>
+        <h1 className="greeting">Hi I am Manloi!</h1>
         <br />
-        <p>
-          A junior front-end developer with experience in strategic
-          communications and too many hobbies.
-        </p>
+        <h4>A junior front-end developer based in Brussels, Belgium.</h4>
+        <br />
         <a
-          href="public/Manloi_Jim_CV_May25.pdf"
+          href="Manloi_Jim_CV_May25.pdf"
           download
-          className="btn btn-outline-dark mt-3"
+          className="btn btn-outline-dark"
         >
           Download My CV
         </a>

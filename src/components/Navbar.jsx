@@ -1,11 +1,18 @@
 import React from "react";
+import manloiDrawing from "../assets/manloi-drawing.png";
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-auto">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-auto sticky-top">
       <div class="container">
-        <a class="navbar-brand" href="#">
-          JML
+        <a href="https://jimanloi.github.io/manloi-portfolio-react/">
+          <img
+            border="0"
+            alt="Manloi"
+            src={manloiDrawing}
+            width="60"
+            height="60"
+          />
         </a>
         <button
           class="navbar-toggler"

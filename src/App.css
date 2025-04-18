@@ -1,11 +1,31 @@
-.manloi-image {
-  padding: 35px;
-}
-
 .hero-content {
+  color: #000000;
+  text-align: center;
   padding: 25px;
   display: flex;
   align-items: center;
   justify-content: center;
   column-gap: 30px;
+  position: relative;
+  background-color: #fdfdfdaf;
+  background-image: url(./assets/bruxelles.jpg);
+  background-blend-mode: overlay;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.greeting {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.custom-blue-btn {
+  border: #0b2465;
+  border-radius: 15px;
+}
+
+.main-content {
+  padding: 10px 30px;
+  margin: 20px 60px;
 }

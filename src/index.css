@@ -9,4 +9,6 @@ body {
   line-height: 1.5;
   background-color: #fff;
   color: #111;
+  align-items: center;
+  justify-items: center;
 }
