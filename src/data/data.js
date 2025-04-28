@@ -127,7 +127,7 @@ const projects = [
   {
     id: 11,
     type: "Web App",
-    title: "HomeExchange Welcome Manual",
+    title: "HomeExchange Guest Manual",
     description: "A digital welcome guide for HomeExchange guests",
     tags: [
       "HTML",
