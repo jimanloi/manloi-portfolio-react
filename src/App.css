@@ -26,19 +26,24 @@
 }
 
 .main-content {
-  padding: 10px 30px;
-  margin: 10px 60px;
+  margin: 1rem 3rem;
 }
 
 .footer-section {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin: 30px 0;
+  margin: 2rem 0;
+  padding-bottom: 1.5rem;
+  align-items: center;
+}
+
+.copyright {
+  font-size: 0.8rem;
 }
 
 .social-media a {
-  margin: 8px;
+  margin: 0.3em;
 }
 
 .works {
