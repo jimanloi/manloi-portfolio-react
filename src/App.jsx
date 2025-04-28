@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import HeroContent from "./components/HeroContent";
 import MainContent from "./components/MainContent";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import MyWorks from "./pages/myWorks";
 import "./App.css";
@@ -22,6 +23,7 @@ function App() {
         ></Route>
         <Route path="/works" element={<MyWorks />}></Route>
       </Routes>
+      <Contact />
       <Footer />
     </Router>
   );

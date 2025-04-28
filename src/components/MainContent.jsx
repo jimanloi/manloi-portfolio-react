@@ -3,7 +3,7 @@ import React from "react";
 const MainContent = () => {
   return (
     <div className="main-content">
-      <h1 style={{ paddingBottom: "10px" }}>About Me</h1>
+      {/* <h1 style={{ paddingBottom: "10px" }}>About Me</h1> */}
       <p>
         I’m Manloi, currently diving into the world of
         <strong> front-end development</strong> after a few years working in

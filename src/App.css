@@ -27,6 +27,20 @@
 
 .main-content {
   margin: 1rem 3rem;
+  max-width: 1000px;
+  justify-self: center;
+  padding: 20px 0;
+}
+
+.form-container {
+  width: 80vw;
+  max-width: 1000px;
+  margin: 20px;
+  justify-self: center;
+}
+
+.form-group {
+  margin: 10px 0;
 }
 
 .footer-section {
