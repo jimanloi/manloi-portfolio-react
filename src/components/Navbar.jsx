@@ -1,10 +1,11 @@
 import React from "react";
 import manloiDrawing from "../assets/manloi-drawing.png";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-auto sticky-top">
-      <div class="container">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary mb-auto sticky-top">
+      <div className="container">
         <a href="https://jimanloi.github.io/manloi-portfolio-react/">
           <img
             border="0"
@@ -15,7 +16,7 @@ const Navbar = () => {
           />
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -23,25 +24,25 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav ms-auto">
+            <li className="nav-item">
+              <Link className="nav-link active" to="/">
                 About me
-              </a>
+              </Link>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                My works
-              </a>
+            <li className="nav-item">
+              <Link className="nav-link" to="/works">
+                Projects
+              </Link>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            {/* <li className="nav-item">
+              <Link className="nav-link" to="/">
                 Contact Me
-              </a>
-            </li>
+              </Link>
+            </li> */}
           </ul>
         </div>
       </div>

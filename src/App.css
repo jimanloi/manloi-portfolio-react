@@ -40,3 +40,79 @@
 .social-media a {
   margin: 8px;
 }
+
+.works {
+  margin: 10px 20px;
+}
+
+.works h1 {
+  text-align: center;
+  margin: 0;
+  padding-top: 5px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.project-card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 300px; /* <- CONTROL the width here */
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+}
+
+.project-card img {
+  width: 100%;
+  height: 180px; /* control image height */
+  object-fit: cover; /* 🔥 important: cover keeps image inside */
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.tags-container {
+  margin: 0;
+}
+
+.tags {
+  display: inline-block;
+  background: #eef;
+  padding: 4px 8px;
+  margin: 2px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+}
+
+.project-card h4 {
+  margin: 10px 0 5px 0;
+  font-size: 1.2rem;
+}
+
+.project-card p {
+  flex-grow: 1;
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+.project-card a {
+  display: inline-block;
+  margin: 5px;
+  color: #0b2465;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project-card a:hover {
+  text-decoration: underline;
+}

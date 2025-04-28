@@ -15,7 +15,10 @@ const MainContent = () => {
       <p>
         Now I’m learning to build clean, responsive interfaces with{" "}
         <mark>HTML, CSS, JavaScript, and React</mark> through the{" "}
-        <a class="link-underline-info" href="https://www.hackyourfuture.be/">
+        <a
+          className="link-underline-info"
+          href="https://www.hackyourfuture.be/"
+        >
           Hack Your Future Belgium program
         </a>
         . I also love learning new tools like{" "}
