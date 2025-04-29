@@ -15,6 +15,7 @@
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.5",
     "bootstrap-icons": "^1.11.3",
+    "motion": "^12.9.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.5.2",

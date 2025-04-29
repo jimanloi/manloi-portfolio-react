@@ -1,4 +1,5 @@
 import projects from "../data/data";
+import { motion } from "motion/react";
 
 const MyWorks = () => {
   return (
@@ -7,7 +8,11 @@ const MyWorks = () => {
       <div className="projects-container">
         {[...projects].reverse().map((project) => {
           return (
-            <div className="project-card" key={project.id}>
+            <motion.div
+              whileHover={{ scale: 1.05 }}
+              className="project-card"
+              key={project.id}
+            >
               <h4>{project.title}</h4>
               <img src={project.screenshot} alt={project.title} />
               <p>{project.description}</p>
@@ -36,7 +41,7 @@ const MyWorks = () => {
                   {project.source !== "" ? "source code" : ""}
                 </a>
               </p>
-            </div>
+            </motion.div>
           );
         })}
       </div>
