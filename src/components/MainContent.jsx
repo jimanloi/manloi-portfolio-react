@@ -14,16 +14,16 @@ const MainContent = () => {
       </p>
       <p>
         Now I’m learning to build clean, responsive interfaces with{" "}
-        <mark>HTML, CSS, JavaScript, and React</mark> through the{" "}
-        <a
-          className="link-underline-info"
-          href="https://www.hackyourfuture.be/"
-        >
+        <strong>
+          <mark>HTML, CSS, JavaScript, and React</mark>
+        </strong>{" "}
+        through the{" "}
+        <a className="link-secondary" href="https://www.hackyourfuture.be/">
           Hack Your Future Belgium program
         </a>
         . I also love learning new tools like{" "}
-        <mark>Figma, TypeScript, and APIs</mark> — basically anything that helps
-        bring great ideas to life on screen.
+        <strong>Figma, TypeScript, and APIs</strong> — basically anything that
+        helps bring great ideas to life on screen.
       </p>
       <p>
         <strong>Outside of coding...</strong>I love anything that gets me

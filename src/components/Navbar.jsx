@@ -30,12 +30,17 @@ const Navbar = () => {
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <Link className="nav-link active" to="/">
-                About me
+                Hi there!
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link" to="/career-journey">
+                My Story
               </Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/works">
-                Projects
+                My Projects
               </Link>
             </li>
             {/* <li className="nav-item">

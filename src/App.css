@@ -60,6 +60,119 @@
   margin: 0.3em;
 }
 
+/* My Story*/
+
+.journey-section {
+  justify-items: center;
+  width: 100vw;
+  padding: 20px;
+}
+
+.self-intro {
+  width: 90vw;
+  max-width: 1050px;
+  padding: 1.5rem;
+  background-color: #fde1e1;
+  border-radius: 15px;
+}
+
+.self-intro p {
+  margin-bottom: 1rem;
+}
+
+#scroll-indicator {
+  transition: scaleX 0.2s ease-out;
+}
+
+.career-images {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(1rem, 5vw, 3rem); /* dynamic gap: min 1rem, max 3rem */
+  padding: 8px;
+  margin: 20px 10px;
+  box-sizing: border-box;
+  color: #eaa5a5;
+}
+
+.secondaryPhoto,
+.developer-icon {
+  flex: 1 1 80px;
+  width: 100%;
+  max-width: 120px;
+  min-width: 40px; /* don't exceed 120px */
+  height: auto;
+  object-fit: cover;
+  transition: all 0.3s ease;
+}
+
+.secondaryPhoto {
+  border-radius: 60px;
+  border: 1px solid #eaa5a5;
+  filter: grayscale(100%) brightness(1.1);
+  opacity: 60%;
+}
+
+.secondaryPhoto:hover {
+  filter: grayscale(0%) brightness(1.3);
+  opacity: 100%;
+}
+
+.developer-icon:hover {
+  scale: 1.15;
+}
+
+.experience-section {
+  width: 82vw;
+  max-width: 1000px;
+  justify-items: center;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cv {
+  align-items: center;
+  text-align: left;
+}
+
+.cv-line {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 15px;
+  margin: 10px 0;
+}
+
+.cv-line p {
+  margin: 0;
+}
+
+#cv-date {
+  color: #a5a5a5;
+  font-size: small;
+}
+
+.cv-tags {
+  background-color: #dcf4ff;
+  padding: 2px 5px;
+  margin: 5px;
+  border-radius: 5px;
+  color: #515151;
+  font-size: small;
+}
+
+.education-card {
+  background-color: #e0f7ff;
+}
+
+.training-card {
+  background-color: #f1ffe0;
+}
+
+/* My Projects*/
+
 .works {
   margin: 10px 20px;
 }

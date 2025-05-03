@@ -1,4 +1,4 @@
-import projects from "../data/data";
+import projects from "../../data/projectData";
 import { motion } from "motion/react";
 
 const MyWorks = () => {
