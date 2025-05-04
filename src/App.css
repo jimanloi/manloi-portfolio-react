@@ -35,8 +35,9 @@
 .form-container {
   width: 80vw;
   max-width: 1000px;
-  margin: 20px;
+  margin: 1rem 3rem;
   justify-self: center;
+  align-self: center;
 }
 
 .form-group {
