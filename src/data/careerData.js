@@ -36,7 +36,7 @@ const career = [
     tasks: [""],
     tags: [
       "website content management",
-      "social media analysis",
+      "social media analytics",
       "digital content creation",
       "coordination",
     ],
