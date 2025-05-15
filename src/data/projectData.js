@@ -10,6 +10,7 @@ import movies from "../assets/screenshot-movies.png";
 import weather from "../assets/screenshot-weather-api.png";
 import guardian from "../assets/screenshot-guardian.png";
 import homeexchange from "../assets/screenshot-homeexchange.png";
+import country from "../assets/screenshot-country.png";
 
 const projects = [
   {
@@ -141,6 +142,17 @@ const projects = [
     site: "https://homeexhange-ixelles-cdm.netlify.app/",
     source: "https://github.com/jimanloi/homeexhange-cdm",
     screenshot: homeexchange,
+  },
+  {
+    id: 12,
+    type: "Web App",
+    title: "Country API",
+    description:
+      "Search for a country and instantly get its info from a public API.",
+    tags: ["HTML", "CSS", "TypeScript", "Fetch API"],
+    site: "https://jimanloi.github.io/country-api/",
+    source: "https://github.com/jimanloi/country-api",
+    screenshot: country,
   },
 ];
 
