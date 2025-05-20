@@ -11,6 +11,7 @@ import weather from "../assets/screenshot-weather-api.png";
 import guardian from "../assets/screenshot-guardian.png";
 import homeexchange from "../assets/screenshot-homeexchange.png";
 import country from "../assets/screenshot-country.png";
+import calculatorReact from "../assets/screenshot-calculator-react.png";
 
 const projects = [
   {
@@ -153,6 +154,16 @@ const projects = [
     site: "https://jimanloi.github.io/country-api/",
     source: "https://github.com/jimanloi/country-api",
     screenshot: country,
+  },
+  {
+    id: 13,
+    type: "web App",
+    title: "Calculator",
+    description: "Perform basic arithmetic operations",
+    tags: ["HTML", "CSS", "TypeScript", "React", "Vite", "Netlify"],
+    site: "https://react-calculator-manloi.netlify.app/",
+    source: "https://github.com/jimanloi/react-calculator",
+    screenshot: calculatorReact,
   },
 ];
 
