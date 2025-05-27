@@ -91,7 +91,9 @@ const CareerJourney = () => {
           </li>
           <li className="list-group-item" key="Frameworks">
             <strong>Frameworks & Libraries</strong>
-            <p>React • Vite • Bootstrap • Motion • Jest</p>
+            <p>
+              React • Vite • Redux • Redux Toolkit • Bootstrap • Motion • Jest
+            </p>
           </li>
           <li className="list-group-item" key="Tools">
             <strong>Tools & Systems</strong>
