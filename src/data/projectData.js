@@ -12,6 +12,7 @@ import guardian from "../assets/screenshot-guardian.png";
 import homeexchange from "../assets/screenshot-homeexchange.png";
 import country from "../assets/screenshot-country.png";
 import calculatorReact from "../assets/screenshot-calculator-react.png";
+import moviesReactRedux from "../assets/screenshot-movies-react.png";
 
 const projects = [
   {
@@ -164,6 +165,25 @@ const projects = [
     site: "https://react-calculator-manloi.netlify.app/",
     source: "https://github.com/jimanloi/react-calculator",
     screenshot: calculatorReact,
+  },
+  {
+    id: 14,
+    type: "web App",
+    title: "Movie Database",
+    description: "Search for a movie from a database instantly",
+    tags: [
+      "HTML",
+      "CSS",
+      "TypeScript",
+      "React",
+      "Redux Toolkit",
+      "API",
+      "Vite",
+      "Netlify",
+    ],
+    site: "https://react-movie-search-manloi.netlify.app/",
+    source: "https://github.com/jimanloi/react-movie-search",
+    screenshot: moviesReactRedux,
   },
 ];
 
