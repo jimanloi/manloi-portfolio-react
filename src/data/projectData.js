@@ -13,6 +13,8 @@ import homeexchange from "../assets/screenshot-homeexchange.png";
 import country from "../assets/screenshot-country.png";
 import calculatorReact from "../assets/screenshot-calculator-react.png";
 import moviesReactRedux from "../assets/screenshot-movies-react.png";
+import bookSearch from "../assets/screenshot-books.png";
+import reactShop from "../assets/screenshot-shop.png";
 
 const projects = [
   {
@@ -184,6 +186,46 @@ const projects = [
     site: "https://react-movie-search-manloi.netlify.app/",
     source: "https://github.com/jimanloi/react-movie-search",
     screenshot: moviesReactRedux,
+  },
+  {
+    id: 15,
+    type: "web App",
+    title: "Book Search",
+    description: "Search for books from a database instantly",
+    tags: [
+      "HTML",
+      "CSS",
+      "TypeScript",
+      "React",
+      "Redux Toolkit",
+      "API",
+      "Vite",
+      "Netlify",
+      "Material UI",
+    ],
+    site: "https://books-manloi.netlify.app/",
+    source: "https://github.com/jimanloi/books-search",
+    screenshot: bookSearch,
+  },
+  {
+    id: 16,
+    type: "web App",
+    title: "Online Shop",
+    description: "Simple online shop",
+    tags: [
+      "HTML",
+      "CSS",
+      "TypeScript",
+      "React",
+      "Redux Toolkit",
+      "API",
+      "Vite",
+      "Netlify",
+      "Tailwind CSS",
+    ],
+    site: "https://manloi-shop.netlify.app/",
+    source: "https://github.com/jimanloi/manloi-shop",
+    screenshot: reactShop,
   },
 ];
 
